@@ -10,6 +10,7 @@ function App() {
           className="App-logo"
           alt="logo"
         />
+        <h1>Hello from create react</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
