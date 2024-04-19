@@ -7,10 +7,12 @@ function App() {
       <PetInfo
         animal="spider"
         age="10"
+        hasPet
       />
       <PetInfo
         animal="dog"
         age="5"
+        hasPet={false}
       />
     </div>
   );
