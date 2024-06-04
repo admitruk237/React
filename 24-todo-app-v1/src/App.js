@@ -7,7 +7,9 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   const addTodoHandler = (text) => {
-    setTodos([...todos, text]);
+    if (text.length > 0) {
+      setTodos([...todos, text]);
+    }
   };
 
   const deleteTodoHandler = (index) => {
