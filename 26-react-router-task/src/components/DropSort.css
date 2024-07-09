@@ -1,0 +1,45 @@
+.dropdown-container {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  font-size: 12px;
+}
+
+.label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.dropdown-button,
+.dropdown-list {
+  font-size: 14px;
+  padding: 5px 0;
+  margin: 5px 0 0 0;
+  width: 100%;
+  background-color: #112d49;
+  color: white;
+}
+
+.dropdown-list {
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.dropdown-item::marker {
+  display: none;
+}
+
+.border {
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: all 0.3s;
+  overflow: hidden;
+  max-height: 100px;
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.border.expanded {
+  max-height: 500px;
+  padding: 5px 0;
+}
